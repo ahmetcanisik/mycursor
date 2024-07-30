@@ -48,6 +48,9 @@ class MyCursor:
                     if j == 0:
                         css += "}\n"  # Close media query for dark mode
         
+        css += "textarea, input { cursor: var(--cursor-text), text; }\n"
+        css += "html, body, div, span, p, bdo, bdi, abbr, cite, code, kbd, samp, strong, em, small, mark, ruby, rt, rp, data, time, dfn, meter, progress, output, details, h1, h2, h3, h4, h5, h6, ul, ol, li, table, tr, td, th, header, footer, section, article, aside, img, video, audio, iframe, form, fieldset, legend, summary, canvas, svg, template, slot, select, option, label, input[type='checkbox'], input[type='radio'] { cursor: var(--cursor-default), default; }\n"
+        css += "button, a, input[type='button'], input[type='submit'], input[type='reset'] { cursor: var(--cursor-pointer), pointer; }\n"
         for cur in self.cursors:
             css += f".cursor-{cur} {{cursor: var(--cursor-{cur}), {cur};}}\n"
         return css.replace('\n', '').replace(' ', '') if minify else css
