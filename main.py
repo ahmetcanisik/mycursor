@@ -48,7 +48,7 @@ class MyCursor:
                     if j == 0:
                         css += "}\n"  # Close media query for dark mode
         
-        for cur in themes:
+        for cur in self.cursors:
             css += f".cursor-{cur} {{cursor: var(--cursor-{cur}), {cur};}}\n"
         return css.replace('\n', '').replace(' ', '') if minify else css
 

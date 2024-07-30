@@ -1,6 +1,6 @@
 /*
 * @name         : mycursor
-* @version      : 0.0.1
+* @version      : 0.0.2
 * @description  : Perfect for using custom cursors.
 * @author       : ahmetcanisik
 * @license      : MIT
@@ -40,5 +40,9 @@
    --cursor-text: url('https://raw.githubusercontent.com/ahmetcanisik/mycursor/main/cursor/dark/text.svg');
    --cursor-wait: url('https://raw.githubusercontent.com/ahmetcanisik/mycursor/main/cursor/dark/wait.svg');
 }
-.cursor-light {cursor: var(--cursor-light), light;}
-.cursor-dark {cursor: var(--cursor-dark), dark;}
+.cursor-default {cursor: var(--cursor-default), default;}
+.cursor-pointer {cursor: var(--cursor-pointer), pointer;}
+.cursor-not-allowed {cursor: var(--cursor-not-allowed), not-allowed;}
+.cursor-progress {cursor: var(--cursor-progress), progress;}
+.cursor-text {cursor: var(--cursor-text), text;}
+.cursor-wait {cursor: var(--cursor-wait), wait;}
