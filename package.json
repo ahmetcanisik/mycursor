@@ -1,0 +1,21 @@
+{
+    "name": "mycursor",
+    "version": "0.0.1",
+    "description": "Perfect for using custom cursors.",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ahmetcanisik/mycursor.git"
+    },
+    "keywords": [
+      "mycursor",
+      "custom-cursor",
+      "ahmetcanisik"
+    ],
+    "author": "ahmetcanisik",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ahmetcanisik/mycursor/issues"
+    },
+    "homepage": "https://github.com/ahmetcanisik/mycursor#readme"
+  }

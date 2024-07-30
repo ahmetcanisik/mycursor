@@ -1,0 +1,44 @@
+/*
+* @name         : mycursor
+* @version      : 0.0.1
+* @description  : Perfect for using custom cursors.
+* @author       : ahmetcanisik
+* @license      : MIT
+*/
+:root {
+   --cursor-default: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/light/default.svg');
+   --cursor-pointer: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/light/pointer.svg');
+   --cursor-not-allowed: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/light/not-allowed.svg');
+   --cursor-progress: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/light/progress.svg');
+   --cursor-text: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/light/text.svg');
+   --cursor-wait: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/light/wait.svg');
+}
+[data-theme='light'] {
+   --cursor-default: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/light/default.svg');
+   --cursor-pointer: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/light/pointer.svg');
+   --cursor-not-allowed: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/light/not-allowed.svg');
+   --cursor-progress: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/light/progress.svg');
+   --cursor-text: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/light/text.svg');
+   --cursor-wait: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/light/wait.svg');
+}
+@media (prefers-color-scheme: dark) {
+:root {
+   --cursor-default: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/dark/default.svg');
+   --cursor-pointer: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/dark/pointer.svg');
+   --cursor-not-allowed: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/dark/not-allowed.svg');
+   --cursor-progress: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/dark/progress.svg');
+   --cursor-text: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/dark/text.svg');
+   --cursor-wait: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/dark/wait.svg');
+}
+}
+[data-theme='dark'] {
+    color-scheme: dark;
+   --cursor-default: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/dark/default.svg');
+   --cursor-pointer: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/dark/pointer.svg');
+   --cursor-not-allowed: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/dark/not-allowed.svg');
+   --cursor-progress: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/dark/progress.svg');
+   --cursor-text: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/dark/text.svg');
+   --cursor-wait: url('https://cdn.jsdelivr.net/npm/mycursor@0.0.1/dark/wait.svg');
+}
+.cursor-light {cursor: var(--cursor-light), light;}
+.cursor-dark {cursor: var(--cursor-dark), dark;}
