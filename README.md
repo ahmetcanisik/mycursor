@@ -1,4 +1,4 @@
-# Mycursor v0.0.2
+# Mycursor v0.0.3
 
 It wouldn't be bad to use a few custom cursors, like [figma](https://figma.com) does.
 
