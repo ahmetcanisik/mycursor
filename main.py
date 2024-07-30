@@ -40,7 +40,7 @@ class MyCursor:
                         css += "[data-theme='dark'] {\n    color-scheme: dark;\n"
 
                 for cursor in self.cursors:
-                    css += f"   --cursor-{cursor}: url('https://cdn.jsdelivr.net/npm/mycursor@{self.manifest["version"]}/{mode}/{cursor}.svg');\n"
+                    css += f"   --cursor-{cursor}: url('https://raw.githubusercontent.com/ahmetcanisik/mycursor/main/cursor/{mode}/{cursor}.svg');\n"
                 if mode == "light":
                     css += "}\n"
                 else:
