@@ -1,17 +1,18 @@
+# ide
 .vscode
 .idea
+
+# cache
 .__pycache__
 
+# github
 .gitignore
 .gitattribiutes
 
-main.py
-setup.py
-mytheme.py
-mycursor.py
-__init__.py
-__main__.py
-
+# folders
 cursor
+old
 
+# files
+generator.js
 testing.html

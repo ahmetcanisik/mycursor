@@ -1,6 +1,6 @@
 /*
 * @name         : mycursor
-* @version      : 0.0.4
+* @version      : 0.0.5
 * @description  : Perfect for using custom cursors.
 * @author       : ahmetcanisik
 * @license      : MIT
@@ -40,7 +40,7 @@
    --cursor-text: url('https://cdn.jsdelivr.net/gh/ahmetcanisik/mycursor/cursor/dark/text.svg');
    --cursor-wait: url('https://cdn.jsdelivr.net/gh/ahmetcanisik/mycursor/cursor/dark/wait.svg');
 }
-textarea, input { cursor: var(--cursor-text), text; }
+textarea, input { cursor: var(--cursor-text); }
 html, body, div, span, p, bdo, bdi, abbr, cite, code, kbd, samp, strong, em, small, mark, ruby, rt, rp, data, time, dfn, meter, progress, output, details, h1, h2, h3, h4, h5, h6, ul, ol, li, table, tr, td, th, header, footer, section, article, aside, img, video, audio, iframe, form, fieldset, legend, summary, canvas, svg, template, slot, select, option, label, input[type='checkbox'], input[type='radio'] { cursor: var(--cursor-default), default; }
 button, a, input[type='button'], input[type='submit'], input[type='reset'] { cursor: var(--cursor-pointer), pointer; }
 .cursor-default {cursor: var(--cursor-default), default;}
